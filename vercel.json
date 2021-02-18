@@ -1,6 +1,5 @@
 {
 	"version": 2,
-	"public": true,
 	"builds": [
 		{ "src": "/api/index.php", "use": "vercel-php@0.3.1" },
 		{ "src": "/user_guide/**", "use": "@vercel/static" }
